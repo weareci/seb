@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  padding-top: 25px;
 }
 
 .header {
@@ -20,22 +21,20 @@ html, body {
 }
 
 .nav {
-  margin: 0;
-  padding: 20px 0;
-  font-size: 12px;
-  font-family: 'Raleway,' sans-serif;
+   color: #0f4278;
+}
+.navbar-inverse {
+    background-color: #0f4278;
+    border-color: #080808;
 }
 
-.nav li {
-    color: #FFF;
-    display: inline;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    margin-right: 25px;
-    text-transform: uppercase;
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #9d9d9d;
+}
 .main {
   position: relative;
   top: 180px;
@@ -43,7 +42,7 @@ html, body {
 }
 
 .main h1 {
-  color: #0f4278;;
+  color: #0f4278;
   font-family: 'Raleway', sans-serif;
   font-weight: 700 ;
   font-size: 80px;
@@ -125,6 +124,10 @@ html, body {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
+}
+
+.img-center {
+    margin: 0 auto;
 }
 
 @media (max-width: 500px) {
